@@ -1,0 +1,20 @@
+{
+    "id": "trane::music::saxophone::tenor::long_tones",
+    "name": "Tenor Saxophone - Long Tones",
+    "dependencies": [],
+    "description": "Practice long tones on the tenor saxophone.",
+    "authors": [
+        "The Trane Project"
+    ],
+    "metadata": {
+        "instrument": [
+            "saxophone",
+            "tenor_saxophone"
+        ]
+    },
+    "course_material": null,
+    "course_instructions": null,
+    "generator_config": {
+        "KnowledgeBase": {}
+    }
+}
