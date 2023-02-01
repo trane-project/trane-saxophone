@@ -1,0 +1,17 @@
+{
+    "id": "trane::music::saxophone::template::circle_fifths",
+    "name": "A course template for doing exercises in all keys following the circle of fifths.",
+    "dependencies": [],
+    "description": "A course template for doing exercises in all keys following the circle of fifths.",
+    "authors": [
+        "The Trane Project"
+    ],
+    "metadata": {
+        "instrument": []
+    },
+    "course_material": null,
+    "course_instructions": null,
+    "generator_config": {
+        "KnowledgeBase": {}
+    }
+}
