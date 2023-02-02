@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.68"
-trane = "0.9.2"
+trane = "0.10.0"
