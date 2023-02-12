@@ -1,0 +1,105 @@
+{
+    "manifest": {
+        "id": "trane::music::saxophone::template::circle_fifths",
+        "name": "A course template for doing exercises in all keys following the circle of fifths.",
+        "dependencies": [],
+        "description": "A course template for doing exercises in all keys following the circle of fifths.",
+        "authors": [
+            "The Trane Project"
+        ],
+        "metadata": {
+            "instrument": []
+        },
+        "course_material": null,
+        "course_instructions": null,
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "c",
+            "dependencies": [],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "g",
+            "dependencies": ["c"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "d",
+            "dependencies": ["g"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "a",
+            "dependencies": ["d"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "e",
+            "dependencies": ["a"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "b",
+            "dependencies": ["e"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "f",
+            "dependencies": ["c"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "b_flat",
+            "dependencies": ["f"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "e_flat",
+            "dependencies": ["b_flat"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "a_flat",
+            "dependencies": ["e_flat"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "d_flat",
+            "dependencies": ["a_flat"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        },
+        {
+            "short_id": "g_flat",
+            "dependencies": ["d_flat"],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": []
+        }
+    ]
+}
