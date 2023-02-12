@@ -1,20 +1,20 @@
 {
-    "id": "trane::music::saxophone::tenor::modal_exploration_1",
-    "name": "Tenor Saxophone - Modal Exploration",
-    "dependencies": [],
-    "description": "Explore the major and minor modes on the tenor saxophone.",
-    "authors": [
-        "The Trane Project"
-    ],
-    "metadata": {
-        "instrument": [
-            "saxophone",
-            "tenor_saxophone"
-        ]
-    },
-    "course_material": null,
-    "course_instructions": null,
-    "generator_config": {
-        "KnowledgeBase": {}
-    }
+  "id": "trane::music::saxophone::tenor::modal_exploration_1",
+  "name": "Tenor Saxophone - Modal Exploration",
+  "dependencies": [],
+  "description": "Explore the major and minor modes on the tenor saxophone.",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "instrument": [
+      "saxophone",
+      "tenor_saxophone"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null,
+  "generator_config": {
+    "KnowledgeBase": {}
+  }
 }
