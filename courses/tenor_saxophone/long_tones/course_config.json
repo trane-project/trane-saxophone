@@ -2,7 +2,6 @@
     "manifest": {
         "id": "trane::music::saxophone::tenor::long_tones",
         "name": "Tenor Saxophone - Long Tones",
-        "dependencies": [],
         "description": "Practice long tones on the tenor saxophone.",
         "authors": [
             "The Trane Project"
@@ -13,7 +12,6 @@
                 "tenor_saxophone"
             ]
         },
-        "course_material": null,
         "course_instructions": {
             "MarkdownAsset": {
                 "path": "course_instructions.md"
@@ -26,115 +24,95 @@
     "lessons": [
         {
             "short_id": "octave_2",
-            "dependencies": [],
-            "metadata": null,
-            "additional_files": [],
             "exercises": [
                 {
                     "short_id": "b_flat",
                     "front": [
                         "Play a long tone using the note Bb2 (A#2) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "b",
                     "front": [
                         "Play a long tone using the note B2 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 }
             ]
         },
         {
             "short_id": "octave_3",
-            "dependencies": [],
-            "metadata": null,
-            "additional_files": [],
             "exercises": [
                 {
                     "short_id": "c",
                     "front": [
                         "Play a long tone using the note C3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d_flat",
                     "front": [
                         "Play a long tone using the note Db3 (C#3) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d",
                     "front": [
                         "Play a long tone using the note D3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e_flat",
                     "front": [
                         "Play a long tone using the note Eb3 (D#3) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e",
                     "front": [
                         "Play a long tone using the note E3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "f",
                     "front": [
                         "Play a long tone using the note F3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "g_flat",
                     "front": [
                         "Play a long tone using the note Gb3 (F#3) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "g",
                     "front": [
                         "Play a long tone using the note G3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "a_flat",
                     "front": [
                         "Play a long tone using the note Ab3 (G#3) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "a",
                     "front": [
                         "Play a long tone using the note A3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "b_flat",
                     "front": [
                         "Play a long tone using the note Bb3 (A#3) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "b",
                     "front": [
                         "Play a long tone using the note B3 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 }
             ]
         },
@@ -143,92 +121,78 @@
             "dependencies": [
                 "octave_3"
             ],
-            "metadata": null,
-            "additional_files": [],
             "exercises": [
                 {
                     "short_id": "c",
                     "front": [
                         "Play a long tone using the note C4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d_flat",
                     "front": [
                         "Play a long tone using the note Db4 (C#4) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d",
                     "front": [
                         "Play a long tone using the note D4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e_flat",
                     "front": [
                         "Play a long tone using the note Eb4 (D#4) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e",
                     "front": [
                         "Play a long tone using the note E4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "f",
                     "front": [
                         "Play a long tone using the note F4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "g_flat",
                     "front": [
                         "Play a long tone using the note Gb4 (F#4) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "g",
                     "front": [
                         "Play a long tone using the note G4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "a_flat",
                     "front": [
                         "Play a long tone using the note Ab4 (G#4) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "a",
                     "front": [
                         "Play a long tone using the note A4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "b_flat",
                     "front": [
                         "Play a long tone using the note Bb4 (A#4) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "b",
                     "front": [
                         "Play a long tone using the note B4 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 }
             ]
         },
@@ -237,57 +201,48 @@
             "dependencies": [
                 "octave_4"
             ],
-            "metadata": null,
-            "additional_files": [],
             "exercises": [
                 {
                     "short_id": "c",
                     "front": [
                         "Play a long tone using the note C5 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d_flat",
                     "front": [
                         "Play a long tone using the note Db5 (C#5) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "d",
                     "front": [
                         "Play a long tone using the note D5 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e_flat",
                     "front": [
                         "Play a long tone using the note Eb5 (D#5) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "e",
                     "front": [
                         "Play a long tone using the note E5 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "f",
                     "front": [
                         "Play a long tone using the note F5 on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 },
                 {
                     "short_id": "g_flat",
                     "front": [
                         "Play a long tone using the note Gb5 (F#5) on your tenor saxophone."
-                    ],
-                    "back": []
+                    ]
                 }
             ]
         }
