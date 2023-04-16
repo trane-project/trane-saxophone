@@ -1,0 +1,1 @@
+Explore the ascending minor scale in the equivalent minor key to E major in your tenor saxophone.

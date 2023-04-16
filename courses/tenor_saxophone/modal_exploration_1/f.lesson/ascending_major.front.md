@@ -1,0 +1,1 @@
+Explore the ascending major scale in the key of F major in your tenor saxophone.

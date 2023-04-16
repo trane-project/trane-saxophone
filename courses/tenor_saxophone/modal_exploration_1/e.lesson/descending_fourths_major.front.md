@@ -1,0 +1,1 @@
+Explore the major scale in descending fourths in the key of E major in your tenor saxophone.

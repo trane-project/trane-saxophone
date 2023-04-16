@@ -1,0 +1,1 @@
+Explore the minor scale in descending fourths in the equivalent minor key to Db major in your tenor saxophone.

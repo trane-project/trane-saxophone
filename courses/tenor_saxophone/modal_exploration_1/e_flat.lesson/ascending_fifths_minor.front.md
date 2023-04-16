@@ -1,0 +1,1 @@
+Explore the minor scale in ascending fifths in the equivalent minor key to Eb major in your tenor saxophone.

@@ -1,0 +1,1 @@
+Explore the major scale in ascending thirds in the key of D major in your tenor saxophone.
