@@ -1,0 +1,1 @@
+Explore the major scale in the key of C major in your tenor saxophone using primarily fourth intervals.

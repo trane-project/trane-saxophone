@@ -1,1 +1,0 @@
-Explore the major scale in descending fifths in the key of A major in your tenor saxophone.

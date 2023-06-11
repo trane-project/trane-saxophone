@@ -1,1 +1,0 @@
-Explore the ascending major scale in the key of Bb major in your tenor saxophone.

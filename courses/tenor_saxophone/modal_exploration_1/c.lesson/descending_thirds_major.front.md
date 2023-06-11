@@ -1,1 +1,0 @@
-Explore the major scale in descending thirds in the key of C major in your tenor saxophone.

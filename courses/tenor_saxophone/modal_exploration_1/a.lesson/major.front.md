@@ -1,1 +1,0 @@
-Explore the major mode in the key of A major in your tenor saxophone.

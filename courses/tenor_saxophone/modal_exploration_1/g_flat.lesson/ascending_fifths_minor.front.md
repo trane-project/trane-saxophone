@@ -1,1 +1,0 @@
-Explore the minor scale in ascending fifths in the equivalent minor key to Gb major in your tenor saxophone.

@@ -1,1 +1,0 @@
-Explore the minor scale in descending fifths in the equivalent minor key to E major in your tenor saxophone.

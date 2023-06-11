@@ -1,1 +1,0 @@
-Explore the major scale in descending fourths in the key of G major in your tenor saxophone.

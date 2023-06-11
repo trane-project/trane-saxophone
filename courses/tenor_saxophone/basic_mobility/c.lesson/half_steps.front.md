@@ -1,0 +1,1 @@
+Pick a random note on your tenor saxophone. From there, explore the notes using only half steps.

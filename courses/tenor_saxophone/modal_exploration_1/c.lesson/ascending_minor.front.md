@@ -1,1 +1,0 @@
-Explore the ascending minor scale in the equivalent minor key to C major in your tenor saxophone.

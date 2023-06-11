@@ -1,1 +1,0 @@
-Explore the minor scale in descending fourths in the equivalent minor key to B major in your tenor saxophone.

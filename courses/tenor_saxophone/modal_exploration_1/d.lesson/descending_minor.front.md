@@ -1,1 +1,0 @@
-Explore the descending minor scale in the equivalent minor key to D major in your tenor saxophone.

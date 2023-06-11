@@ -1,0 +1,1 @@
+Explore the major scale in the key of Gb major in your tenor saxophone using primarily fifth intervals.

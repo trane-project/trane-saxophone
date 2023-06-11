@@ -1,1 +1,0 @@
-Explore the major scale in ascending fourths in the key of Ab major in your tenor saxophone.

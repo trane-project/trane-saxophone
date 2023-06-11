@@ -1,0 +1,38 @@
+{
+    "manifest": {
+        "id": "trane::music::saxophone::tenor::basic_mobility",
+        "name": "Tenor Saxophone - Mobility",
+        "description": "Gain basic mobility on the tenor saxophone.",
+        "authors": [
+            "The Trane Project"
+        ],
+        "metadata": {
+            "instrument": [
+                "saxophone",
+                "tenor_saxophone"
+            ]
+        },
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "c",
+            "exercises": [
+                {
+                    "short_id": "half_steps",
+                    "front": [
+                        "Pick a random note on your tenor saxophone. From there, explore the notes using only half steps."
+                    ]
+                },
+                {
+                    "short_id": "whole_steps",
+                    "front": [
+                        "Pick a random note on your tenor saxophone. From there, explore the notes using only whole steps."
+                    ]
+                }
+            ]
+        }
+    ]
+}

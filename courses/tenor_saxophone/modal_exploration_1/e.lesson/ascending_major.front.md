@@ -1,1 +1,0 @@
-Explore the ascending major scale in the key of E major in your tenor saxophone.

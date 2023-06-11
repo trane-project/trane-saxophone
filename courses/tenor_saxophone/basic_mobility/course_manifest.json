@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::saxophone::tenor::mobility",
+  "name": "Tenor Saxophone - Mobility",
+  "dependencies": [],
+  "description": "Gain basic mobility on the tenor saxophone.",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "instrument": [
+      "saxophone",
+      "tenor_saxophone"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null,
+  "generator_config": {
+    "KnowledgeBase": {}
+  }
+}

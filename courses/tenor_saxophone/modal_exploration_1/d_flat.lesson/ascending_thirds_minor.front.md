@@ -1,1 +1,0 @@
-Explore the minor scale in ascending thirds in the equivalent minor key to Db major in your tenor saxophone.

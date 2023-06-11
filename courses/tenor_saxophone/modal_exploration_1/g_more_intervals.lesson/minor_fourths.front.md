@@ -1,0 +1,1 @@
+Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily fourth intervals.

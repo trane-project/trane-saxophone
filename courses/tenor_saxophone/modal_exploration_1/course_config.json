@@ -3,6 +3,9 @@
         "id": "trane::music::saxophone::tenor::modal_exploration_1",
         "name": "Tenor Saxophone - Modal Exploration",
         "description": "Explore the major and minor modes on the tenor saxophone.",
+        "dependencies": [
+            "trane::music::saxophone::tenor::basic_mobility"
+        ],
         "authors": [
             "The Trane Project"
         ],
@@ -21,114 +24,93 @@
             "short_id": "c",
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to C major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "c_more_intervals",
+            "dependencies": ["c"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of C major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to C major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of C major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to C major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of C major in your tenor saxophone."
+                        "Explore the major scale in the key of C major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to C major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to C major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to C major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -138,114 +120,93 @@
             "dependencies": ["c"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to G major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "g_more_intervals",
+            "dependencies": ["g"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of G major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to G major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of G major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to G major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of G major in your tenor saxophone."
+                        "Explore the major scale in the key of G major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to G major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to G major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to G major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -255,114 +216,93 @@
             "dependencies": ["g"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to D major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "d_more_intervals",
+            "dependencies": ["d"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of D major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to D major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of D major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to D major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of D major in your tenor saxophone."
+                        "Explore the major scale in the key of D major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to D major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to D major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to D major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -372,114 +312,93 @@
             "dependencies": ["d"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to A major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "a_more_intervals",
+            "dependencies": ["a"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of A major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to A major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of A major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to A major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of A major in your tenor saxophone."
+                        "Explore the major scale in the key of A major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to A major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to A major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to A major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -489,114 +408,93 @@
             "dependencies": ["a"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to E major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "e_more_intervals",
+            "dependencies": ["e"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of E major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to E major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of E major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to E major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of E major in your tenor saxophone."
+                        "Explore the major scale in the key of E major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to E major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to E major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to E major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -606,114 +504,93 @@
             "dependencies": ["e"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to B major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "b_more_intervals",
+            "dependencies": ["b"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of B major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to B major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of B major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to B major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of B major in your tenor saxophone."
+                        "Explore the major scale in the key of B major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to B major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to B major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to B major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -723,114 +600,93 @@
             "dependencies": ["c"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to F major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "f_more_intervals",
+            "dependencies": ["f"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of F major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to F major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of F major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to F major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of F major in your tenor saxophone."
+                        "Explore the major scale in the key of F major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to F major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to F major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to F major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -840,114 +696,93 @@
             "dependencies": ["f"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to Bb major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "b_flat_more_intervals",
+            "dependencies": ["b_flat"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of Bb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to Bb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of Bb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to Bb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of Bb major in your tenor saxophone."
+                        "Explore the major scale in the key of Bb major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to Bb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to Bb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Bb major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -957,114 +792,93 @@
             "dependencies": ["b_flat"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to Eb major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "e_flat_more_intervals",
+            "dependencies": ["e_flat"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of Eb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to Eb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of Eb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to Eb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of Eb major in your tenor saxophone."
+                        "Explore the major scale in the key of Eb major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to Eb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to Eb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -1074,114 +888,93 @@
             "dependencies": ["e_flat"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to Ab major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "a_flat_more_intervals",
+            "dependencies": ["a_flat"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of Ab major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to Ab major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of Ab major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to Ab major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of Ab major in your tenor saxophone."
+                        "Explore the major scale in the key of Ab major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to Ab major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to Ab major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Ab major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -1191,114 +984,93 @@
             "dependencies": ["a_flat"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to Db major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "d_flat_more_intervals",
+            "dependencies": ["d_flat"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of Db major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to Db major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of Db major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to Db major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of Db major in your tenor saxophone."
+                        "Explore the major scale in the key of Db major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to Db major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to Db major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]
@@ -1308,114 +1080,93 @@
             "dependencies": ["d_flat"],
             "exercises": [
                 {
-                    "short_id": "major",
+                    "short_id": "major_seconds",
                     "front": [
-                        "Explore the major mode in the key of Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "minor",
+                    "short_id": "minor_seconds",
                     "front": [
-                        "Explore the minor mode in the equivalent minor key to Gb major in your tenor saxophone.",
-                        "",
-                        "The equivalent minor key is the key with the same number of flats or sharps as the given major key.",
-                        "For example, the A minor key is the equivalent to the C major key."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily second intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_major",
+                    "short_id": "major_thirds",
                     "front": [
-                        "Explore the ascending major scale in the key of Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily third intervals."
+                    ]
+                } ,
+                {
+                    "short_id": "minor_thirds",
+                    "front": [
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily third intervals."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "g_flat_more_intervals",
+            "dependencies": ["g_flat"],
+            "exercises": [
+                {
+                    "short_id": "major_fourths",
+                    "front": [
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_major",
+                    "short_id": "minor_fourths",
                     "front": [
-                        "Explore the descending major scale in the key of Gb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily fourth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_minor",
+                    "short_id": "major_fifths",
                     "front": [
-                        "Explore the ascending minor scale in the equivalent minor key to Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_minor",
+                    "short_id": "minor_fifths",
                     "front": [
-                        "Explore the descending minor scale in the equivalent minor key to Gb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily fifth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_major",
+                    "short_id": "major_sixths",
                     "front": [
-                        "Explore the major scale in ascending thirds in the key of Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_major",
+                    "short_id": "minor_sixths",
                     "front": [
-                        "Explore the major scale in descending thirds in the key of Gb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily sixth intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_thirds_minor",
+                    "short_id": "major_sevenths",
                     "front": [
-                        "Explore the minor scale in ascending thirds in the equivalent minor key to Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_thirds_minor",
+                    "short_id": "minor_sevenths",
                     "front": [
-                        "Explore the minor scale in descending thirds in the equivalent minor key to Gb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily seventh intervals."
                     ]
                 },
                 {
-                    "short_id": "ascending_fourths_major",
+                    "short_id": "major_octaves",
                     "front": [
-                        "Explore the major scale in ascending fourths in the key of Gb major in your tenor saxophone."
+                        "Explore the major scale in the key of Gb major in your tenor saxophone using primarily octave intervals."
                     ]
                 },
                 {
-                    "short_id": "descending_fourths_major",
+                    "short_id": "minor_octaves",
                     "front": [
-                        "Explore the major scale in descending fourths in the key of Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fourths in the equivalent minor key to Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fourths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fourths in the equivalent minor key to Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_major",
-                    "front": [
-                        "Explore the major scale in ascending fifths in the key of Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_major",
-                    "front": [
-                        "Explore the major scale in descending fifths in the key of Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "ascending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in ascending fifths in the equivalent minor key to Gb major in your tenor saxophone."
-                    ]
-                },
-                {
-                    "short_id": "descending_fifths_minor",
-                    "front": [
-                        "Explore the minor scale in descending fifths in the equivalent minor key to Gb major in your tenor saxophone."
+                        "Explore the minor scale in the equivalent minor mode to Gb major in your tenor saxophone using primarily octave intervals."
                     ]
                 }
             ]

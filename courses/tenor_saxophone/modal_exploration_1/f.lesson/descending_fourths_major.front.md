@@ -1,1 +1,0 @@
-Explore the major scale in descending fourths in the key of F major in your tenor saxophone.

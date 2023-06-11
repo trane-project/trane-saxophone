@@ -1,1 +1,0 @@
-Explore the ascending minor scale in the equivalent minor key to Ab major in your tenor saxophone.
