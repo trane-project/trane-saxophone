@@ -1,5 +1,5 @@
 {
-  "id": "trane::music::saxophone::tenor::mobility",
+  "id": "trane::music::saxophone::tenor::basic_mobility",
   "name": "Tenor Saxophone - Mobility",
   "dependencies": [],
   "description": "Gain basic mobility on the tenor saxophone.",

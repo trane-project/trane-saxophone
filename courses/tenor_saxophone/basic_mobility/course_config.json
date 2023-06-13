@@ -18,7 +18,7 @@
     },
     "lessons": [
         {
-            "short_id": "c",
+            "short_id": "lesson",
             "exercises": [
                 {
                     "short_id": "half_steps",
