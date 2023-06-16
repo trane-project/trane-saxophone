@@ -1,1 +1,0 @@
-Explore the minor scale in the equivalent minor mode to Db major in your tenor saxophone using primarily fourth intervals.

@@ -1,1 +1,0 @@
-Explore the minor scale in the equivalent minor mode to Eb major in your tenor saxophone using primarily octave intervals.

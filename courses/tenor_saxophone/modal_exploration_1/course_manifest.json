@@ -4,7 +4,7 @@
   "dependencies": [
     "trane::music::saxophone::tenor::basic_mobility"
   ],
-  "description": "Explore the major and minor modes on the tenor saxophone.",
+  "description": "Explore the major mode on the tenor saxophone.",
   "authors": [
     "The Trane Project"
   ],
